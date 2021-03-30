@@ -221,7 +221,7 @@ int subtraction_matrix(int** matrix_a, int** matrix_b, int row, int col) // matr
 	}
 	if (matrix_sub == NULL) // matrix_sub의 값이 NULL이면 -3 반환(비정상 종료)
 		{
-			printf("Matrix_add is NULL\n");
+			printf("Matrix_sub is NULL\n");
 			return -3;
 		}
 	print_matrix(matrix_sub, row, col); // matrix_sub 값 출력하기 위해 print_matrix함수에 값 대임
